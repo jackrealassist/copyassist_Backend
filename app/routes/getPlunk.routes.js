@@ -1,0 +1,52 @@
+const controller = require("../controllers/getPlunk.controller");
+
+module.exports = function (app) {
+  app.get(
+    "/api/getPlunk/plunkHomeValueByAddress/:address/:max_result_count",
+    controller.plunkHomeValueByAddress
+  );
+  app.get(
+    "/api/getPlunk/plunkHomeValueByApn/:fips/:apn",
+    controller.plunkHomeValueByApn
+  );
+  app.get(
+    "/api/getPlunk/plunkHomeValuations/:parcel_id",
+    controller.plunkHomeValuations
+  );
+  app.get(
+    "/api/getPlunk/plunkParcelMetadata/:parcel_id",
+    controller.plunkParcelMetadata
+  );
+  app.get(
+    "/api/getPlunk/plunkHomeCompare/:parcel_id",
+    controller.plunkHomeCompare
+  );
+  app.get(
+    "/api/getPlunk/plunkHomeRemodelValue/:parcel_id",
+    controller.plunkHomeRemodelValue
+  );
+  app.get(
+    "/api/getPlunk/plunkMarketMedianListPriceDollars/:region_id",
+    controller.plunkMarketMedianListPriceDollars
+  );
+  app.get(
+    "/api/getPlunk/plunkMarketSaleVsListPricePercent/:region_id",
+    controller.plunkMarketSaleVsListPricePercent
+  );
+  app.get(
+    "/api/getPlunk/plunkMarketPricePerSqFtDollars/:region_id",
+    controller.plunkMarketPricePerSqFtDollars
+  );
+  app.get(
+    "/api/getPlunk/plunkMarketInventoryCount/:region_id",
+    controller.plunkMarketInventoryCount
+  );
+  app.get(
+    "/api/getPlunk/plunkMarketDaysOfInventoryCount/:region_id",
+    controller.plunkMarketDaysOfInventoryCount
+  );
+  app.get(
+    "/api/getPlunk/plunkMedianDaysOnMarket/:region_id",
+    controller.plunkMedianDaysOnMarket
+  );
+};

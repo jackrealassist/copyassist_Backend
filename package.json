@@ -1,0 +1,38 @@
+{
+  "name": "real-estate-server",
+  "version": "1.0.0",
+  "description": "Server For Real Estate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "jwt",
+    "authentication",
+    "mongodb"
+  ],
+  "author": "bezkoder",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/openai": "^1.0.0-beta.7",
+    "axios": "^1.5.0",
+    "azure-openai": "^0.9.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.11.2",
+    "node-cache": "^5.1.2",
+    "node-fetch": "2.6.6",
+    "node-geocoder": "^4.2.0",
+    "nodemailer": "^6.9.6",
+    "nodemon": "^3.0.1",
+    "openai": "^4.14.0",
+    "stripe": "^13.6.0"
+  }
+}

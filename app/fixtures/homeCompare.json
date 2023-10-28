@@ -1,0 +1,1065 @@
+{
+  "parcel_id": "5955b25a-afd1-51b7-9199-ab4d06797367",
+  "region_type": "zipcode",
+  "region_id": "98115",
+  "residential_category": "single-family",
+  "comparisons": [
+    {
+      "feature_id": "cooling_types",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Unknown",
+          "count": 14396,
+          "proportion": 0.9999305410849483
+        },
+        {
+          "group": "Whole house",
+          "count": 1,
+          "proportion": 6.94589150517469e-5
+        }
+      ]
+    },
+    {
+      "feature_id": "has_porch",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Has Porch",
+          "count": 6412,
+          "proportion": 0.4453705633118011
+        },
+        {
+          "group": "No Porch",
+          "count": 7985,
+          "proportion": 0.554629436688199
+        }
+      ]
+    },
+    {
+      "feature_id": "bathrooms_number",
+      "subject_group_index": 1,
+      "groups": [
+        {
+          "group": "1",
+          "count": 3478,
+          "proportion": 0.5964671582918882
+        },
+        {
+          "group": "2",
+          "count": 1696,
+          "proportion": 0.2908592008231864
+        },
+        {
+          "group": "3",
+          "count": 504,
+          "proportion": 0.08643457382953182
+        },
+        {
+          "group": "4",
+          "count": 105,
+          "proportion": 0.01800720288115246
+        },
+        {
+          "group": "5",
+          "count": 28,
+          "proportion": 0.004801920768307323
+        },
+        {
+          "group": "6 or more",
+          "count": 20,
+          "proportion": 0.003429943405933802
+        }
+      ]
+    },
+    {
+      "feature_id": "lot_size",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "4,050 or less",
+          "count": 2259,
+          "proportion": 0.15690768910189623
+        },
+        {
+          "group": "4,051 - 5,470",
+          "count": 4168,
+          "proportion": 0.28950475793568103
+        },
+        {
+          "group": "5,471 - 6,890",
+          "count": 4550,
+          "proportion": 0.3160380634854484
+        },
+        {
+          "group": "6,891 - 8,310",
+          "count": 1941,
+          "proportion": 0.13481975411544073
+        },
+        {
+          "group": "8,311 or more",
+          "count": 1479,
+          "proportion": 0.10272973536153365
+        }
+      ]
+    },
+    {
+      "feature_id": "has_garage",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Has Garage",
+          "count": 12478,
+          "proportion": 0.8667083420156977
+        },
+        {
+          "group": "No Garage",
+          "count": 1919,
+          "proportion": 0.1332916579843023
+        }
+      ]
+    },
+    {
+      "feature_id": "decks_size",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "140 or less",
+          "count": 2200,
+          "proportion": 0.31241124680488497
+        },
+        {
+          "group": "141 - 240",
+          "count": 2141,
+          "proportion": 0.3040329451860267
+        },
+        {
+          "group": "241 - 340",
+          "count": 1295,
+          "proportion": 0.18389662027833
+        },
+        {
+          "group": "341 - 440",
+          "count": 668,
+          "proportion": 0.0948594149389378
+        },
+        {
+          "group": "441 or more",
+          "count": 738,
+          "proportion": 0.10479977279182051
+        }
+      ]
+    },
+    {
+      "feature_id": "construction_types",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Unknown",
+          "count": 14353,
+          "proportion": 0.9969438077377232
+        },
+        {
+          "group": "Wood",
+          "count": 42,
+          "proportion": 0.0029172744321733697
+        },
+        {
+          "group": "Metal",
+          "count": 1,
+          "proportion": 6.94589150517469e-5
+        },
+        {
+          "group": "Masonry",
+          "count": 1,
+          "proportion": 6.94589150517469e-5
+        }
+      ]
+    },
+    {
+      "feature_id": "second_floor_size",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "590 or less",
+          "count": 365,
+          "proportion": 0.11087484811664641
+        },
+        {
+          "group": "591 - 870",
+          "count": 820,
+          "proportion": 0.24908869987849333
+        },
+        {
+          "group": "871 - 1,150",
+          "count": 967,
+          "proportion": 0.29374240583232075
+        },
+        {
+          "group": "1,151 - 1,430",
+          "count": 650,
+          "proportion": 0.19744835965978128
+        },
+        {
+          "group": "1,431 or more",
+          "count": 490,
+          "proportion": 0.1488456865127582
+        }
+      ]
+    },
+    {
+      "feature_id": "structure_size",
+      "subject_group_index": 2,
+      "groups": [
+        {
+          "group": "1,300 or less",
+          "count": 2739,
+          "proportion": 0.19024796832673474
+        },
+        {
+          "group": "1,301 - 1,870",
+          "count": 4292,
+          "proportion": 0.29811766340209767
+        },
+        {
+          "group": "1,871 - 2,440",
+          "count": 3747,
+          "proportion": 0.2602625546988956
+        },
+        {
+          "group": "2,441 - 3,010",
+          "count": 1963,
+          "proportion": 0.13634785024657914
+        },
+        {
+          "group": "3,011 or more",
+          "count": 1656,
+          "proportion": 0.11502396332569285
+        }
+      ]
+    },
+    {
+      "feature_id": "parking_types",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Attached garage",
+          "count": 7996,
+          "proportion": 0.5553934847537682
+        },
+        {
+          "group": "Detached garage",
+          "count": 3349,
+          "proportion": 0.23261790650830033
+        },
+        {
+          "group": "Unknown",
+          "count": 2089,
+          "proportion": 0.14509967354309924
+        },
+        {
+          "group": "Carport",
+          "count": 962,
+          "proportion": 0.06681947627978051
+        },
+        {
+          "group": "Off street",
+          "count": 1,
+          "proportion": 6.94589150517469e-5
+        }
+      ]
+    },
+    {
+      "feature_id": "water_types",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Municipal",
+          "count": 14395,
+          "proportion": 0.9998610821698966
+        },
+        {
+          "group": "Unknown",
+          "count": 2,
+          "proportion": 1.389178301034938e-4
+        }
+      ]
+    },
+    {
+      "feature_id": "porches_size",
+      "subject_group_index": 1,
+      "groups": [
+        {
+          "group": "80 or less",
+          "count": 3302,
+          "proportion": 0.5149719276356831
+        },
+        {
+          "group": "81 - 130",
+          "count": 1226,
+          "proportion": 0.1912039925140362
+        },
+        {
+          "group": "131 - 180",
+          "count": 742,
+          "proportion": 0.11572052401746726
+        },
+        {
+          "group": "181 - 230",
+          "count": 486,
+          "proportion": 0.07579538365564567
+        },
+        {
+          "group": "231 or more",
+          "count": 656,
+          "proportion": 0.10230817217716781
+        }
+      ]
+    },
+    {
+      "feature_id": "bedrooms_count",
+      "subject_group_index": 2,
+      "groups": [
+        {
+          "group": "1",
+          "count": 174,
+          "proportion": 0.012098456403838132
+        },
+        {
+          "group": "2",
+          "count": 2551,
+          "proportion": 0.17737449589764984
+        },
+        {
+          "group": "3",
+          "count": 5570,
+          "proportion": 0.3872896676401057
+        },
+        {
+          "group": "4",
+          "count": 4457,
+          "proportion": 0.30990126547072727
+        },
+        {
+          "group": "5",
+          "count": 1340,
+          "proportion": 0.09317202058128216
+        },
+        {
+          "group": "6 or more",
+          "count": 290,
+          "proportion": 0.020164094006396883
+        }
+      ]
+    },
+    {
+      "feature_id": "interior_wall_types",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Unknown",
+          "count": 14397,
+          "proportion": 1.0
+        }
+      ]
+    },
+    {
+      "feature_id": "waterfront_types",
+      "subject_group_index": 1,
+      "groups": [
+        {
+          "group": "Unknown",
+          "count": 14064,
+          "proportion": 0.9768701812877683
+        },
+        {
+          "group": "Canal",
+          "count": 333,
+          "proportion": 0.023129818712231714
+        }
+      ]
+    },
+    {
+      "feature_id": "pools_size",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "280 or less",
+          "count": 6,
+          "proportion": 0.0625
+        },
+        {
+          "group": "281 - 410",
+          "count": 11,
+          "proportion": 0.11458333333333333
+        },
+        {
+          "group": "411 - 540",
+          "count": 38,
+          "proportion": 0.3958333333333333
+        },
+        {
+          "group": "541 - 670",
+          "count": 27,
+          "proportion": 0.28125
+        },
+        {
+          "group": "671 or more",
+          "count": 14,
+          "proportion": 0.14583333333333334
+        }
+      ]
+    },
+    {
+      "feature_id": "roof_material_types",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Unknown",
+          "count": 14397,
+          "proportion": 1.0
+        }
+      ]
+    },
+    {
+      "feature_id": "garages_size",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "250 or less",
+          "count": 5358,
+          "proportion": 0.42939573649623336
+        },
+        {
+          "group": "251 - 340",
+          "count": 2479,
+          "proportion": 0.19866965859913446
+        },
+        {
+          "group": "341 - 430",
+          "count": 1752,
+          "proportion": 0.14040711652508414
+        },
+        {
+          "group": "431 - 520",
+          "count": 1496,
+          "proportion": 0.11989100817438691
+        },
+        {
+          "group": "521 or more",
+          "count": 1393,
+          "proportion": 0.11163648020516108
+        }
+      ]
+    },
+    {
+      "feature_id": "structure_built_year",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "1930s and earlier",
+          "count": 5359,
+          "proportion": 0.3722303257623116
+        },
+        {
+          "group": "1940s",
+          "count": 3602,
+          "proportion": 0.2501910120163923
+        },
+        {
+          "group": "1950s",
+          "count": 2682,
+          "proportion": 0.18628881016878515
+        },
+        {
+          "group": "1960s",
+          "count": 652,
+          "proportion": 0.04528721261373898
+        },
+        {
+          "group": "1970s",
+          "count": 396,
+          "proportion": 0.027505730360491767
+        },
+        {
+          "group": "1980s",
+          "count": 397,
+          "proportion": 0.027575189275543515
+        },
+        {
+          "group": "1990s",
+          "count": 327,
+          "proportion": 0.022713065221921232
+        },
+        {
+          "group": "2000s",
+          "count": 421,
+          "proportion": 0.02924220323678544
+        },
+        {
+          "group": "2010s",
+          "count": 434,
+          "proportion": 0.03014516913245815
+        },
+        {
+          "group": "2020s and later",
+          "count": 127,
+          "proportion": 0.008821282211571855
+        }
+      ]
+    },
+    {
+      "feature_id": "pool_types",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Unknown",
+          "count": 14205,
+          "proportion": 0.9866638883100646
+        },
+        {
+          "group": "Pool",
+          "count": 151,
+          "proportion": 0.01048829617281378
+        },
+        {
+          "group": "Spa",
+          "count": 38,
+          "proportion": 0.002639438771966382
+        },
+        {
+          "group": "Both",
+          "count": 3,
+          "proportion": 2.0837674515524068e-4
+        }
+      ]
+    },
+    {
+      "feature_id": "has_patio",
+      "subject_group_index": 1,
+      "groups": [
+        {
+          "group": "Has Patio",
+          "count": 2,
+          "proportion": 1.389178301034938e-4
+        },
+        {
+          "group": "No Patio",
+          "count": 14395,
+          "proportion": 0.9998610821698966
+        }
+      ]
+    },
+    {
+      "feature_id": "has_pool",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Has Pool",
+          "count": 192,
+          "proportion": 0.013336111689935403
+        },
+        {
+          "group": "No Pool",
+          "count": 14205,
+          "proportion": 0.9866638883100646
+        }
+      ]
+    },
+    {
+      "feature_id": "basement_unfinished_size",
+      "subject_group_index": 1,
+      "groups": [
+        {
+          "group": "220 or less",
+          "count": 1518,
+          "proportion": 0.1886182902584493
+        },
+        {
+          "group": "221 - 420",
+          "count": 1576,
+          "proportion": 0.19582504970178927
+        },
+        {
+          "group": "421 - 620",
+          "count": 1831,
+          "proportion": 0.22750994035785288
+        },
+        {
+          "group": "621 - 820",
+          "count": 1639,
+          "proportion": 0.2036530815109344
+        },
+        {
+          "group": "821 or more",
+          "count": 1484,
+          "proportion": 0.18439363817097415
+        }
+      ]
+    },
+    {
+      "feature_id": "roof_style_types",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Unknown",
+          "count": 14397,
+          "proportion": 1.0
+        }
+      ]
+    },
+    {
+      "feature_id": "sewer_types",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Municipal",
+          "count": 14395,
+          "proportion": 0.9998610821698966
+        },
+        {
+          "group": "Unknown",
+          "count": 2,
+          "proportion": 1.389178301034938e-4
+        }
+      ]
+    },
+    {
+      "feature_id": "heating_types",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Whole house",
+          "count": 14069,
+          "proportion": 0.977217475863027
+        },
+        {
+          "group": "Partial",
+          "count": 306,
+          "proportion": 0.02125442800583455
+        },
+        {
+          "group": "Unknown",
+          "count": 22,
+          "proportion": 0.0015280961311384315
+        }
+      ]
+    },
+    {
+      "feature_id": "fireplaces_count",
+      "subject_group_index": 1,
+      "groups": [
+        {
+          "group": "0",
+          "count": 1263,
+          "proportion": 0.08772660971035633
+        },
+        {
+          "group": "1",
+          "count": 13134,
+          "proportion": 0.9122733902896437
+        },
+        {
+          "group": "2",
+          "count": 0,
+          "proportion": 0.0
+        },
+        {
+          "group": "3 or more",
+          "count": 0,
+          "proportion": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": "carports_size",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "210 or less",
+          "count": 263,
+          "proportion": 0.222692633361558
+        },
+        {
+          "group": "211 - 300",
+          "count": 420,
+          "proportion": 0.3556308213378493
+        },
+        {
+          "group": "301 - 390",
+          "count": 188,
+          "proportion": 0.15918712955122777
+        },
+        {
+          "group": "391 - 480",
+          "count": 205,
+          "proportion": 0.1735817104149026
+        },
+        {
+          "group": "481 or more",
+          "count": 105,
+          "proportion": 0.08890770533446232
+        }
+      ]
+    },
+    {
+      "feature_id": "exterior_wall_types",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Unknown",
+          "count": 12046,
+          "proportion": 0.836702090713343
+        },
+        {
+          "group": "Brick",
+          "count": 2351,
+          "proportion": 0.16329790928665694
+        }
+      ]
+    },
+    {
+      "feature_id": "has_deck",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Has Deck",
+          "count": 7042,
+          "proportion": 0.4891296797944016
+        },
+        {
+          "group": "No Deck",
+          "count": 7355,
+          "proportion": 0.5108703202055984
+        }
+      ]
+    },
+    {
+      "feature_id": "first_floor_size",
+      "subject_group_index": 2,
+      "groups": [
+        {
+          "group": "850 or less",
+          "count": 1860,
+          "proportion": 0.12919358199624922
+        },
+        {
+          "group": "851 - 1,090",
+          "count": 4947,
+          "proportion": 0.34361325276099186
+        },
+        {
+          "group": "1,091 - 1,330",
+          "count": 3737,
+          "proportion": 0.25956796554837813
+        },
+        {
+          "group": "1,331 - 1,570",
+          "count": 2164,
+          "proportion": 0.15030909217198027
+        },
+        {
+          "group": "1,571 or more",
+          "count": 1689,
+          "proportion": 0.1173161075224005
+        }
+      ]
+    },
+    {
+      "feature_id": "has_carport",
+      "subject_group_index": 1,
+      "groups": [
+        {
+          "group": "Has Carport",
+          "count": 1181,
+          "proportion": 0.08203097867611307
+        },
+        {
+          "group": "No Carport",
+          "count": 13216,
+          "proportion": 0.9179690213238869
+        }
+      ]
+    },
+    {
+      "feature_id": "basement_finished_size",
+      "subject_group_index": 3,
+      "groups": [
+        {
+          "group": "340 or less",
+          "count": 1910,
+          "proportion": 0.1989790603187832
+        },
+        {
+          "group": "341 - 580",
+          "count": 1967,
+          "proportion": 0.20491717887279925
+        },
+        {
+          "group": "581 - 820",
+          "count": 2343,
+          "proportion": 0.24408792582560684
+        },
+        {
+          "group": "821 - 1,060",
+          "count": 2043,
+          "proportion": 0.21283467027815398
+        },
+        {
+          "group": "1,061 or more",
+          "count": 1336,
+          "proportion": 0.13918116470465675
+        }
+      ]
+    },
+    {
+      "feature_id": "stories_count",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "1",
+          "count": 7715,
+          "proportion": 0.5360617009449694
+        },
+        {
+          "group": "2",
+          "count": 6482,
+          "proportion": 0.45038910505836577
+        },
+        {
+          "group": "3",
+          "count": 190,
+          "proportion": 0.0132017787659811
+        },
+        {
+          "group": "4 or more",
+          "count": 5,
+          "proportion": 3.474152306837132e-4
+        }
+      ]
+    },
+    {
+      "feature_id": "patios_size",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "320 or less",
+          "count": 1,
+          "proportion": 0.5
+        },
+        {
+          "group": "321 - 330",
+          "count": 0,
+          "proportion": 0.0
+        },
+        {
+          "group": "331 - 340",
+          "count": 1,
+          "proportion": 0.5
+        },
+        {
+          "group": "341 - 350",
+          "count": 0,
+          "proportion": 0.0
+        },
+        {
+          "group": "351 or more",
+          "count": 0,
+          "proportion": 0.0
+        }
+      ]
+    },
+    {
+      "feature_id": "residential_category",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Single-family",
+          "count": 14397,
+          "proportion": 1.0
+        }
+      ]
+    },
+    {
+      "feature_id": "heating_fuel_types",
+      "subject_group_index": 0,
+      "groups": [
+        {
+          "group": "Electric",
+          "count": 9428,
+          "proportion": 0.6548586511078697
+        },
+        {
+          "group": "Gas",
+          "count": 4808,
+          "proportion": 0.33395846356879905
+        },
+        {
+          "group": "Solar",
+          "count": 120,
+          "proportion": 0.008335069806209627
+        },
+        {
+          "group": "Unknown",
+          "count": 31,
+          "proportion": 0.0021532263666041536
+        },
+        {
+          "group": "Oil",
+          "count": 10,
+          "proportion": 6.945891505174689e-4
+        }
+      ]
+    }
+  ],
+  "comparison_descriptions": [
+    {
+      "feature_id": "cooling_types",
+      "title": "Types of cooling in your area"
+    },
+    {
+      "feature_id": "has_porch",
+      "title": "Homes with porches in your area"
+    },
+    {
+      "feature_id": "bathrooms_number",
+      "title": "Number of bathrooms in your area"
+    },
+    {
+      "feature_id": "lot_size",
+      "title": "Lot sizes in your area (sqft)"
+    },
+    {
+      "feature_id": "has_garage",
+      "title": "Homes with garages in your area"
+    },
+    {
+      "feature_id": "decks_size",
+      "title": "Deck sizes in your area (sqft)"
+    },
+    {
+      "feature_id": "construction_types",
+      "title": "Types of construction in your area"
+    },
+    {
+      "feature_id": "second_floor_size",
+      "title": "Second floor sizes in your area (sqft)"
+    },
+    {
+      "feature_id": "structure_size",
+      "title": "Home sizes in your area (sqft)"
+    },
+    {
+      "feature_id": "parking_types",
+      "title": "Types of parking in your area"
+    },
+    {
+      "feature_id": "water_types",
+      "title": "Water sources in your area"
+    },
+    {
+      "feature_id": "porches_size",
+      "title": "Porch sizes in your area (sqft)"
+    },
+    {
+      "feature_id": "bedrooms_count",
+      "title": "Number of bedrooms in your area"
+    },
+    {
+      "feature_id": "interior_wall_types",
+      "title": "Interior wall types in your area"
+    },
+    {
+      "feature_id": "waterfront_types",
+      "title": "Waterfront homes in your area"
+    },
+    {
+      "feature_id": "pools_size",
+      "title": "Pool sizes in your area (sqft)"
+    },
+    {
+      "feature_id": "roof_material_types",
+      "title": "Roof materials in your area"
+    },
+    {
+      "feature_id": "garages_size",
+      "title": "Garage sizes in your area (sqft)"
+    },
+    {
+      "feature_id": "structure_built_year",
+      "title": "When homes were built in your area"
+    },
+    {
+      "feature_id": "pool_types",
+      "title": "Types of pools in your area"
+    },
+    {
+      "feature_id": "has_patio",
+      "title": "Homes with patios in your area"
+    },
+    {
+      "feature_id": "has_pool",
+      "title": "Homes with pools in your area"
+    },
+    {
+      "feature_id": "basement_unfinished_size",
+      "title": "Unfinished basement sizes in your area (sqft)"
+    },
+    {
+      "feature_id": "roof_style_types",
+      "title": "Roof styles in your area"
+    },
+    {
+      "feature_id": "sewer_types",
+      "title": "Sewer types in your area"
+    },
+    {
+      "feature_id": "heating_types",
+      "title": "Types of heating in your area"
+    },
+    {
+      "feature_id": "fireplaces_count",
+      "title": "Number of fireplaces in your area"
+    },
+    {
+      "feature_id": "carports_size",
+      "title": "Carport sizes in your area (sqft)"
+    },
+    {
+      "feature_id": "exterior_wall_types",
+      "title": "Exterior wall types in your area"
+    },
+    {
+      "feature_id": "has_deck",
+      "title": "Homes with decks in your area"
+    },
+    {
+      "feature_id": "first_floor_size",
+      "title": "First floor sizes in your area (sqft)"
+    },
+    {
+      "feature_id": "has_carport",
+      "title": "Homes with carports in your area"
+    },
+    {
+      "feature_id": "basement_finished_size",
+      "title": "Finished basement sizes in your area (sqft)"
+    },
+    {
+      "feature_id": "stories_count",
+      "title": "Number of stories in your area"
+    },
+    {
+      "feature_id": "patios_size",
+      "title": "Patio sizes in your area (sqft)"
+    },
+    {
+      "feature_id": "residential_category",
+      "title": "Types of homes in your area"
+    },
+    {
+      "feature_id": "heating_fuel_types",
+      "title": "Heating fuel types in your area"
+    }
+  ]
+}
