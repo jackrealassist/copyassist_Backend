@@ -92,7 +92,7 @@ const generateCopy = async (data, length, post_for) => {
             Great for downsizing or as an investment property! ⛽️💰💵
             `
 
-            const promptMLS = `Create a ${length} compelling property listing for ${post_for} for a ${propertyType} provided variables.
+            const promptMLS = `Create a 250 words compelling property listing for ${post_for} for a ${propertyType} provided variables.
             * DO NOT add any extra details that are not provided in the variables.
                 
             Property Type: ${propertyType}
