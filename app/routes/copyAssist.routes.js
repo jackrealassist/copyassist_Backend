@@ -60,7 +60,7 @@ const generateCopy = async (data, length, post_for) => {
             // });
 
             const client = new OpenAIClient(
-                "https://realassist.openai.azure.com/", 
+                "https://realassist.openai.azure.com/",
                 new AzureKeyCredential("db63da6de13a471eb98529801d849116")
             );
 
@@ -107,7 +107,7 @@ const generateCopy = async (data, length, post_for) => {
             `
 
             let prompt;
-            
+
             post_for === "MLS" ? prompt = promptMLS : prompt = promptWithEmoji;
 
             const messages = [
@@ -117,8 +117,8 @@ const generateCopy = async (data, length, post_for) => {
                 { role: "user", content: "Can you make sure to not add any information by yourself other than the information which has been provided?" },
                 { role: "assistant", content: "Yes" },
                 { role: "user", content: prompt },
-              ];
-            
+            ];
+
             const result = await client.getChatCompletions("modalChatbot", messages, { maxTokens: 1000 });
 
             resolve(result);
@@ -132,7 +132,24 @@ const generateCopyResponse = async (messages, reply) => {
     return new Promise(async (resolve, reject) => {
         try {
             const client = new OpenAIClient(
-                "https://realassist.openai.azure.com/", 
+                "https://realassist.openai.azure.com/",
+                new AzureKeyCredential("db63da6de13a471eb98529801d849116")
+            );
+
+            const result = await client.getChatCompletions("modalChatbot", messages, { maxTokens: 2000 });
+
+            resolve(result);
+        } catch (error) {
+            reject(error);
+        }
+    });
+}
+
+const getResponse = async (messages) => {
+    return new Promise(async (resolve, reject) => {
+        try {
+            const client = new OpenAIClient(
+                "https://realassist.openai.azure.com/",
                 new AzureKeyCredential("db63da6de13a471eb98529801d849116")
             );
 
@@ -185,10 +202,38 @@ module.exports = function (app) {
 
         } catch (err) {
             console.log(err);
-            res.status(404).send({
+            res.status(500).send({
                 message: "Some Error Occured."
             });
         }
 
     });
+
+    app.post("/api/generatePropertyDescription", async (req, res) => {
+        try {
+            const {
+                propertyDetails,
+            } = req.body;
+
+            const messages = [
+                { role: "system", content: "You are a realestate copywriter who writes Property Description from given details. You must not add any detail by yourself." },
+                { role: "user", content: "Can you help me draft a realestate property Description?" },
+                { role: "assistant", content: "Yes" },
+                { role: "user", content: "Can you make sure to not add any information by yourself other than the information which has been provided?" },
+                { role: "assistant", content: "Yes" },
+                { role: "user", content: `Make sure to reply only the property description not sentences like "Here's your description" etc..` },
+                { role: "user", content: `Create a compelling property Description for following provided variables : ${propertyDetails}.` },
+            ];
+
+            const response = await getResponse(messages);
+            res.send(response.choices[0].message.content);
+
+        } catch (err) {
+            console.log(err);
+            res.status(500).send({
+                message: "Some Error Occured."
+            });
+        }
+    })
+    
 };
