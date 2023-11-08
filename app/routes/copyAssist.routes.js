@@ -183,7 +183,7 @@ module.exports = function (app) {
 
             const {
                 lat,
-                lng 
+                lng
             } = req.body;
 
             console.log(lat, lng);
@@ -263,17 +263,36 @@ module.exports = function (app) {
         try {
             const {
                 propertyDetails,
+                previouslyGeneratedDescription,
+                command,
             } = req.body;
 
-            const messages = [
-                { role: "system", content: "You are a realestate copywriter who writes Property Description from given details. You must not add any detail by yourself." },
-                { role: "user", content: "Can you help me draft a realestate property Description?" },
-                { role: "assistant", content: "Yes" },
-                { role: "user", content: "Can you make sure to not add any information by yourself other than the information which has been provided?" },
-                { role: "assistant", content: "Yes" },
-                { role: "user", content: `Make sure to reply only the property description not sentences like "Here's your description" etc..` },
-                { role: "user", content: `Create a compelling property Description for following provided variables : ${propertyDetails}.` },
-            ];
+            let messages = [];
+
+            if (previouslyGeneratedDescription !== "") {
+                messages = [
+                    { role: "system", content: "You are a realestate copywriter who writes Property Description from given details. You must not add any detail by yourself." },
+                    { role: "user", content: "Can you help me draft a realestate property Description?" },
+                    { role: "assistant", content: "Yes" },
+                    { role: "user", content: "Can you make sure to not add any information by yourself other than the information which has been provided?" },
+                    { role: "assistant", content: "Yes" },
+                    { role: "user", content: `Make sure to reply only the property description not sentences like "Here's your description" etc..` },
+                    { role: "user", content: `Create a compelling property Description for following provided variables : ${propertyDetails}.` },
+                    { role: "assistant", content: previouslyGeneratedDescription },
+                    { role: "user", content: command },
+                ];
+            } else {
+
+                messages = [
+                    { role: "system", content: "You are a realestate copywriter who writes Property Description from given details. You must not add any detail by yourself." },
+                    { role: "user", content: "Can you help me draft a realestate property Description?" },
+                    { role: "assistant", content: "Yes" },
+                    { role: "user", content: "Can you make sure to not add any information by yourself other than the information which has been provided?" },
+                    { role: "assistant", content: "Yes" },
+                    { role: "user", content: `Make sure to reply only the property description not sentences like "Here's your description" etc..` },
+                    { role: "user", content: `Create a compelling property Description for following provided variables : ${propertyDetails}.` },
+                ];
+            }
 
             const response = await getResponse(messages);
             res.send(response.choices[0].message.content);
