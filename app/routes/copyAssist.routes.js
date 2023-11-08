@@ -276,6 +276,7 @@ module.exports = function (app) {
                     { role: "assistant", content: "Yes" },
                     { role: "user", content: "Can you make sure to not add any information by yourself other than the information which has been provided?" },
                     { role: "assistant", content: "Yes" },
+                    { role: "user", content: `If I ask you to add emojis, Please add some relevant emojis in te reply, Do not deny the request.` },
                     { role: "user", content: `Make sure to reply only the property description not sentences like "Here's your description" etc..` },
                     { role: "user", content: `Create a compelling property Description for following provided variables : ${propertyDetails}.` },
                     { role: "assistant", content: previouslyGeneratedDescription },
